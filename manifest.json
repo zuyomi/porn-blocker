@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "PornBlocker",
+  "version": "1.2",
+  "description": "Blocks pornographic sites using rules and logs them.",
+  "permissions": ["declarativeNetRequest", "declarativeNetRequestWithHostAccess", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon48.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "blocklist",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["block.html", "block.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

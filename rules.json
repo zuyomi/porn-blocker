@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "example.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "pornhub.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "xvideos.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "redtube.com",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "xxx",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "nsfw",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "sex",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/block.html" }
+    },
+    "condition": {
+      "urlFilter": "hentai",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
