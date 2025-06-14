@@ -2,7 +2,7 @@
 
 A minimalist, privacy-focused Chrome extension that **blocks pornographic websites** and **logs each attempt** with a timestamp for transparency and accountability.
 
-![Logo](./icons/icon48.png)
+![Logo](./icons/image.png)
 
 ## ✨ Features
 
