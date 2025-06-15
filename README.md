@@ -16,7 +16,7 @@ A minimalist, privacy-focused Chrome extension that **blocks pornographic websit
 
 ## 📦 Installation
 
-1. Clone or [download this repository](https://github.com/your-username/pornblocker)
+1. Clone or [download this repository](https://github.com/zuyomi/porn-blocker/releases)
 2. Go to `chrome://extensions/`
 3. Enable **Developer Mode** (top right)
 4. Click **Load Unpacked**
