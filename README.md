@@ -9,7 +9,7 @@ A minimalist, privacy-focused Chrome extension that **blocks pornographic websit
 - 🔐 Blocks access to sites containing pornographic keywords
 - 📜 Logs blocked attempts with timestamps
 - 🧾 View and clear logs from the popup menu
-- ⚡️ Lightweight, fast, and simple to use
+- ⚡️ Lightweight, fast, and simple to use, just plug and go!
 - 💾 All data is stored locally — nothing is sent to the cloud
 
 ---
@@ -18,9 +18,10 @@ A minimalist, privacy-focused Chrome extension that **blocks pornographic websit
 
 1. Clone or [download this repository](https://github.com/zuyomi/porn-blocker/releases)
 2. Go to `chrome://extensions/`
-3. Enable **Developer Mode** (top right)
-4. Click **Load Unpacked**
-5. Select the project folder
+> or, if you have a chromium-based browser, try `**browser**//extenstions`
+4. Enable **Developer Mode** (top right)
+5. Click **Load Unpacked**
+6. Select the project folder
 
 ---
 
