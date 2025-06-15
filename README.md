@@ -35,9 +35,9 @@ The extension listens for all outgoing web requests. If a URL contains any banne
 - Lists all blocked URLs with timestamps
 - Clear history with a single click
 
-> All data stays on your device — no tracking, no internet access.
+> All data stays on your device, no tracking, no internet access, just full on privacy! :D 
 
 ---
 
-## 📁 Project Structure
+> If you need any help with this, feel free to reach out: angel@isuka.lol
 
