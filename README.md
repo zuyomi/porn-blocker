@@ -6,11 +6,10 @@ A minimalist, privacy-focused Chrome extension that **blocks pornographic websit
 
 ## ✨ Features
 
-- 🔐 Blocks access to sites containing pornographic keywords
-- 📜 Logs blocked attempts with timestamps
+- 🔐 Blocks access to sites containing pornographic keywords, and blocks access to pornographic websites, from a preset list!!
 - 🧾 View and clear logs from the popup menu
-- ⚡️ Lightweight, fast, and simple to use, just plug and go!
-- 💾 All data is stored locally — nothing is sent to the cloud
+- ⚡️ Minimal, easy to use, just plug and go!
+- 💾 All data is stored locally — ensuring your data is kept private! :D
 
 ---
 
