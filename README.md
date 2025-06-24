@@ -13,7 +13,7 @@ Zaius is a lightweight Chrome extension that blocks access to adult and unwanted
 
 1. Clone or download the repo
 2. Open Chrome and go to `chrome://extensions/`
-   > or if you have a chorium based browser (example: brave, opera, edge), you use **browser**://extenstions
+> or if you have a chromium based browser (example: brave, opera, edge), you use **browser**://extenstions
 4. Enable **Developer Mode**
 5. Click **Load Unpacked**
 6. Select the `Zaius/` folder
