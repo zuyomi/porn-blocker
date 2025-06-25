@@ -1,27 +1,28 @@
 {
   "manifest_version": 3,
-  "name": "PornBlocker",
-  "version": "1.2",
-  "description": "Blocks pornographic sites using rules and logs them.",
-  "permissions": ["declarativeNetRequest", "declarativeNetRequestWithHostAccess", "storage"],
+  "name": "Zaius Blocker",
+  "version": "1.0",
+  "description": "Blocks access to adult or unwanted websites using a predefined list.",
+  "permissions": ["declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icons/icon48.png"
+    "default_icon": {
+      "48": "icons/icon48.png"
+    }
   },
+  "web_accessible_resources": [
+    {
+      "resources": ["Blocked Page Elements/block.html", "Blocked Page Elements/block.css"],
+      "matches": ["<all_urls>"]
+    }
+  ],
   "declarative_net_request": {
     "rule_resources": [
       {
-        "id": "blocklist",
+        "id": "ruleset_1",
         "enabled": true,
         "path": "rules.json"
       }
     ]
-  },
-  "web_accessible_resources": [
-    {
-      "resources": ["block.html", "block.css"],
-      "matches": ["<all_urls>"]
-    }
-  ]
+  }
 }
